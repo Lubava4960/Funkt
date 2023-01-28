@@ -14,6 +14,15 @@ public class ConsumerName {
          consumer.accept("Ded");
          consumer.accept("Sarah");
 
-    }
+    };
+    Consumer<String> consumer1 = new Consumer<String>() {
+        @Override
+        public void accept( String Name) {
+            System.out.println("Hello");
+
+        }
+
+    };
+
 
 }

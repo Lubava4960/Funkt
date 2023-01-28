@@ -1,3 +1,4 @@
+import Function.Function;
 import Predikat.predicate;
 
 public class Predicate {
@@ -15,18 +16,22 @@ public class Predicate {
         System.out.println(predicate.test(0));
         System.out.println(predicate.test(6));
 
-        predicate<String> predicate2 = (s)-> {
+        predicate<String> predicate2 = (s) -> {
 
-                return s > 0;
-            };
+            return s > 0;
+        };
         System.out.println(predicate.test(-9));
         System.out.println(predicate.test(0));
         System.out.println(predicate.test(10));
 
-    }
+
+
 
 
     }
+
+}
+
 
 
 
