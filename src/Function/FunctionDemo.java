@@ -16,6 +16,7 @@ public class FunctionDemo {
         Function<Double, Long> function1 = new Function<Double, Long>() {
             @Override
             public Long apply(Double Long) {
+
                 return (Math.round(Long));
             }
 
